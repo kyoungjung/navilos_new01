@@ -47,9 +47,9 @@ typedef union TimerXMIS_t
     struct
     {
         uint32_t TimerXMIS          :1;     // 0
-        uint32_t reserned           :31;    // 1 : 31
+        uint32_t reserved           :31;    // 1 : 31
     }bits;
-}TimerXMIS_t
+}TimerXMIS_t;
 
 typedef struct Timer_t
 {
